@@ -4,13 +4,13 @@
 
 int main(){
     int pid;
-    printf("hi" );
+    printf("hi \n");
     pid = fork();
     if (pid == 0){
         fork();
-        printf("Hello" );
+        printf("Hello \n");
     }
     else
-        printf("Bye ");
+        printf("Bye \n");
     return 0;
 }
