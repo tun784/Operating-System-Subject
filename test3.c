@@ -4,10 +4,11 @@
 
 int main(){
     int pid;
-    printf("hi" );
+    int i = 0;
+    printf("hi ");
     pid = fork();
-    fork();
-    printf("Hello" );
-    printf("Bye" );
+    //fork();
+    printf("Hello ");
+    printf("Bye ");
     return 0;
 }
